@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>한국체육산업개발</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="페이지 설명">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../resources/img/common/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="../../resources/img/common/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="../../resources/css/common.css">
+    <link rel="stylesheet" href="../../resources/css/webfonts.css">
+    <link rel="stylesheet" href="../../resources/css/layout.css">
+    <link rel="stylesheet" href="../../resources/css/sub.css">
+    <script src="../../resources/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../../resources/jquery/slick.min.js"></script>
+    <script src="../../resources/js/func.min.js"></script>
+    <script src="../../resources/js/common.js"></script>
+    <script src="../../resources/js/sub.js"></script>
+    <script src="../../resources/js/board.js"></script>
+</head>
+
+<body>
+			
+            <div class="sub_visual sub8">                
+				<h2 class="title">비주얼타이틀영역</h2>
+            </div><!-- //sub_visual-->
+
+            <div class="snb_content_wrap container">
+
+                <section id="snb" class="snb_section">
+                    <div class="snb">
+                        <h2 class="title">마이페이지</h2>
+                        <nav class="nav">
+							<ul class="depth2">
+								<li class="active"><a href="s8_01.html">회원정보관리</a>
+									<ul class="depth3">
+										<li><a href="s8_01.html">기본정보변경</a></li>
+										<li><a href="s8_01_02.html">회원재동의</a></li>
+										<li><a href="s8_01_03.html">회원탈퇴</a></li>
+										<li class="active"><a href="s8_01_04.html">비밀번호등록</a></li>
+									</ul>
+								</li>
+								<li><a href="s8_02.html">나의활동내역</a>
+									<ul class="depth3">
+										<li><a href="s8_02.html">경영공시 개선센터</a></li>
+										<li><a href="s8_02_02.html">정책제안</a></li>
+										<li><a href="s8_02_03.html">설문참여</a></li>
+										<li><a href="s8_02_04.html">공모참여</a></li>
+										<li><a href="s8_02_05.html">고객의소리</a></li>
+										<li><a href="s8_02_06.html">클린신고센터</a></li>
+										<li><a href="s8_02_07.html">인권침해신고센터</a></li>
+									</ul>
+								</li>
+							</ul>
+                        </nav>
+                    </div>
+
+                </section>
+                <!-- //snb -->
+
+                <div id="content" class="content_section">
+
+                    <!-- 페이지 타이틀 -->
+					<h3 class="hidden_h1 sr-only">회원정보관리</h3>
+
+					<!-- 콘텐츠 시작 -->
+					<h4 class="title_h3">비밀번호 등록</h4>
+					<div class="pw_regist">
+						
+
+						<div class="inline_box">
+							<p class="major_txt"><strong>이메일 인증이 완료되었습니다.</strong></p>
+							<p class="sub_txt mb30">고객님의 소중한 개인정보를 위해 비밀번호를 등록해 주세요</p>
+							<div class="pw_input">
+								<div class="form-row">
+									<input type="password" class="form-control" placeholder="새 비밀번호(영문 + 숫자 + 특수문자, 8~16자)" title="새 비밀번호(영문 + 숫자 + 특수문자, 6~30자)">	
+									<button type="button" class="btn_pw_view"><span class="sr-only">비밀번호보기</span><i class="xi-eye-off-o" aria-hidden="true"></i></button>
+								</div>
+								<div class="note">
+									<!-- 
+										비밀번호 안전강도에 따른 combi_step클래스추가 및 icon_note출력 메시지
+										.level_1 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+										.level_2 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+										.level_3 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+										.level_4 : 사용가능한 비밀번호입니다.(안전성 강도 강함)
+										.level_5 : 사용가능한 비밀번호입니다.(안전성 강도 매우 강함)
+										3자리 이상 연속되는 경우 : 3자리 이상 연속되는 영문, 숫자, 특수문자는 비밀번호로 사용할 수 없습니다.
+									-->
+									<div class="combi_step level_4">
+										<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 매우 약함</span></i>
+										<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 약함</span></i>
+										<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 보통</span></i>
+										<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 강함</span></i>
+										<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 매우 강함</span></i>
+									</div>
+									<p class="icon_note" aria-hidden="true">사용가능한 비밀번호입니다.(안전성 강도 강함)</p>
+								</div>
+								<div class="form-row">
+									<input type="password" class="form-control" placeholder="새 비밀번호를 다시 입력해 주세요." title="새 비밀번호를 다시 입력해 주세요.">
+									<button type="button" class="btn_pw_view"><span class="sr-only">비밀번호보기</span><i class="xi-eye-off-o" aria-hidden="true"></i></button>
+								</div>									
+							</div>
+							<!-- //pw_input -->
+
+							<div class="btns mt50">
+								<button type="button" class="btn btn_lg type3">확인</button>
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- //콘텐츠 끝 -->
+					
+                </div>
+                <!-- //content -->
+            </div>
+            <!-- //snb_content_wrap -->
+       
+
+</body>
+
+</html>

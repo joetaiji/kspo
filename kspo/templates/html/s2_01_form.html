@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>한국체육산업개발</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="페이지 설명">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../resources/img/common/apple-touch-icon-57x57.png">
+	<link rel="icon" type="image/png" href="../../resources/img/common/favicon-16x16.png" sizes="16x16">
+	<link rel="stylesheet" href="../../resources/css/common.css">
+	<link rel="stylesheet" href="../../resources/css/webfonts.css">
+	<link rel="stylesheet" href="../../resources/css/layout.css">
+	<link rel="stylesheet" href="../../resources/css/sub.css">
+	<script src="../../resources/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../../resources/jquery/slick.min.js"></script>
+	<script src="../../resources/js/func.min.js"></script>
+	<script src="../../resources/js/common.js"></script>
+	<script src="../../resources/js/sub.js"></script>
+	<script src="../../resources/js/board.js"></script>	
+</head>
+
+<body>
+	<div class="sub_visual sub2">
+		<h2 class="title"></h2>
+	</div>
+	<div class="snb_content_wrap container">
+		<section id="snb" class="snb_section">
+			<div class="snb">
+				<h2 class="title">국민참여</h2>
+				<nav class="nav">
+					<ul class="depth2">
+						<li class="active"><a href="s2_01.html">국민소통</a>
+							<ul class="depth3">
+								<li class="active"><a href="s2_01.html">정책제안</a></li>
+								<li><a href="s2_01_02.html">설문참여</a></li>
+								<li><a href="s2_01_03.html">공모참여</a></li>
+							</ul>
+						</li>
+						<li><a href="s2_02.html">고객광장</a>
+							<ul class="depth3">
+								<li><a href="s2_02.html">고객서비스헌장</a></li>
+								<li><a href="s2_02_02.html">전자민원</a></li>
+								<li><a href="s2_02_03.html">고객의 소리</a></li>
+								<li><a href="s2_02_04.html">고객 모니터링단</a></li>
+							</ul>
+						</li>
+						<li><a href="s2_03.html">E-클린센터</a>
+							<ul class="depth3">
+								<li><a href="s2_03.html">부조리 신고센터</a></li>
+								<li><a href="s2_03_02.html">클린신고센터</a></li>
+								<li><a href="s2_03_03.html">청탁금지 위반신고</a></li>
+								<li><a href="s2_03_04.html">공익신고 안내</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+		</section>
+		<!-- //snb -->
+		<div id="content" class="content_section">
+
+
+
+
+
+			<!-- 페이지 타이틀 -->
+			<h3 class="hidden_h1 sr-only">정책제안</h3>
+
+			<!-- 콘텐츠 시작 -->
+			<div class="policy_proposal_write">
+				<div class="box message_box">
+					<ul class="list_sdot">
+						<li>타인의 명예를 훼손하는 내용 혹은 허위사실, 특정 집단에 대한 혐오 표현 등 부적절한 제안은 관리자에 의해 숨김 처리 혹은 삭제 될 수 있습니다.</li>
+						<li><p class="icon_note">는 필수사항입니다.</p></li>
+					</ul>
+				</div>
+				<div class="board">
+					<ul class="write_form">
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">제목<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+								<div class="col-sm-10 td form-row">
+									<input class="form-control" type="text" name="title" value="" title="제목을 입력하세요" placeholder="제목을 입력하세요.">
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">작성자</strong>
+								<div class="col-sm-10 td">
+									<input type="text" class="form-control" name="m_name" readonly="readonly" value="홍길동" maxlength="12" title="작성자">
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">키워드<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+								<div class="col-sm-10 td">
+									<small class="note">* 해시태그 입력후 엔터(Enter)나 우측 추가(+) 버튼을 눌러주세요</small>
+									<div class="form-row">
+										<input type="text" id="hashInput" class="form-control hash_input">
+										<button type="button" class="hash_add"><i class="xi-plus"></i><span class="sr-only">해시태그 추가</span></button> 
+									</div>
+									<div class="hash_area">
+										<span class="sr-only">해시태그추가영역</span>
+									</div>
+									<!-- //hash_area -->
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">제안분야<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+								<div class="col-sm-10 td">
+									<div class="form-inline">
+										<select class="form-select" title="제안분야를 선택하세요">
+											<option value="-">선택</option>
+											<option value="-">시설운영</option>
+											<option value="-">대관예약</option>
+											<option value="-">올림픽공원</option>
+											<option value="-">미사경정공원</option>
+											<option value="-">스포츠센터</option>
+											<option value="-">평생교육원</option>
+											<option value="-">지샘터올림픽공원도서관</option>
+											<option value="-">기타</option>
+											</select>
+									</div>
+								</div>
+							</div>
+						</li>												
+					
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">제안내용<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+								<div class="col-sm-10 td form-row">
+									<textarea name="content" rows="10" title="내용을 입력하세요" class="content form-control">
+어떠 내용으로 제안하고자 하시나요?
+
+1. 제안배경(이유)
+문제점, 현황,현재 정책의 사각지대
+2.제안내용
+개선방안 또는 해결방안
+3.기대효과
+* 타인의 제안 무단 도용 및 수정, 재배포, 재편집을 금지합니다.
+									</textarea>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">파일첨부</strong>
+								<div class="col-sm-10 td form-row">
+									<ul class="add_file">
+										<li class="attach">
+											<button type="button" class="input_file"><i aria-hidden="true"></i>파일첨부</button>								
+											<p class="help_note"><span>jpg, gif, png</span>파일만 가능합니다.
+												업로드 용량제한 <span>5MB</span></p>
+										</li>
+										<li>
+											<a href="#" class="file_down">
+												<img src="../img/board/file_doc.png" alt="">
+												<span class="text">첨부파일명마우스오버 시.doc</span>
+												<span class="file_size">(6KB)</span>
+											</a>
+											<button type="button" class="file_delete"><span>삭제하기</span><i class="xi-close-min" aria-hidden="true"></i></button>
+										</li>
+										<li>
+											<a href="#" class="file_down">
+												<img src="../img/board/file_img.png" alt="">
+												<span class="text">154873973477000.jpg</span>
+												<span class="file_size">(6KB)</span>
+											</a>
+											<button type="button" class="file_delete"><span>삭제하기</span><i class="xi-close-min" aria-hidden="true"></i></button>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>						
+						<li>
+							<div class="row">
+								<strong class="col-sm-2 th">자동등록방지</strong>
+								<div class="col-sm-10 td form-row">
+									<div class="form-inline refresh_group">
+										<img src="../../resources/img/sub/captcha_sample.png" alt="captcha" style="cursor:pointer">
+										<a onclick="imgRefresh()" class="btn_refresh">
+											<i class="xi-catched"></i>
+											<span class="sr-only">새로고침</span>
+										</a> 
+										<input type="text" class="form-control" id="correctAnswer" name="correctAnswer">
+									</div>
+								</div>
+							</div>
+						</li>						
+					</ul>
+					<p class="icon_note" aria-hidden="true">한번 작성된 '정책제안'은 수정이 불가능하며, 토론 및 설문/투표가 진행중이면 삭제가 불가능합니다.<br> 최초 작성된 취지와 다른내용으로 변경되는 것을 방지하여 ‘정책제안' 참여자의 의견을 보호하기 위한 조치이니 신중하게 작성하여 주시기 바랍니다</p>
+					<!-- //write_form -->
+					<div class="btns mt50">
+						<button type="button" class="btn btn_md">임시저장</button>
+						<button type="button" class="btn type4 btn_md">제안토론시작</button>
+						<button type="button" class="btn gray2 btn_md">목록</button>
+					</div>
+				</div>
+				<!-- //policy_proposal_write -->
+
+				
+
+		
+			
+			
+			
+
+			
+			<!-- //콘텐츠 끝 -->
+
+
+
+
+
+		</div>
+		<!-- //content -->
+	</div>
+	<!-- //snb_content_wrap -->
+</body>
+
+</html>

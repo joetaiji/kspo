@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.636" height="63.071" viewBox="0 0 38.636 63.071">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2139" data-name="사각형 2139" width="38.636" height="63.071" rx="5" transform="translate(0 0)" fill="none" stroke="#1b2539" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="ic1" transform="translate(0 0)">
+    <g id="그룹_17520" data-name="그룹 17520" clip-path="url(#clip-path)">
+      <rect id="사각형_2136" data-name="사각형 2136" width="35.136" height="59.571" transform="translate(1.75 1.75)" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <line id="선_451" data-name="선 451" x2="6.342" transform="translate(16.147 7.328)" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <path id="패스_29483" data-name="패스 29483" d="M26.471,30.956H12.166a2.552,2.552,0,0,0-2.552,2.551V46.124a2.552,2.552,0,0,0,2.552,2.551H26.471a2.551,2.551,0,0,0,2.551-2.551V33.507a2.551,2.551,0,0,0-2.551-2.551" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <rect id="사각형_2137" data-name="사각형 2137" width="19.408" height="17.719" transform="translate(9.614 30.956)" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <path id="패스_29484" data-name="패스 29484" d="M24.967,30.956V26.87s.285-5.274-5.649-5.274-5.649,5.274-5.649,5.274v4.086" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <path id="패스_29485" data-name="패스 29485" d="M22.454,38.665A3.136,3.136,0,1,0,19.318,41.8a3.136,3.136,0,0,0,3.136-3.136" fill="none" stroke="#1b2539" stroke-width="2"/>
+      <rect id="사각형_2138" data-name="사각형 2138" width="1.673" height="4.276" transform="translate(18.482 41.506)" fill="none" stroke="#1b2539" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

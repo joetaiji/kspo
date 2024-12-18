@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes">
+	<title>한국체육산업개발</title>
+	<link rel="apple-touch-icon-precomposed" sizes="57x57"
+		href="https://www.nrc.re.kr/kor/resources/images/icon/apple-touch-icon-57x57.png">
+	<link rel="icon" type="image/png" href="../img/common/favicon-16x16.png" sizes="16x16">
+	<link rel="stylesheet" href="../../resources/css/common.css">
+	<link rel="stylesheet" href="../../resources/css/webfonts.css">
+	<link rel="stylesheet" href="../../resources/css/layout.css">
+	<link rel="stylesheet" href="../../resources/css/sub.css">
+	<script src="../../resources/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../../resources/jquery/slick.min.js"></script>
+	<script src="../../resources/js/func.min.js"></script>
+	<script src="../../resources/js/common.js"></script>
+	<script src="../../resources/js/board.js"></script>
+</head>
+
+<body>
+	<h3 class="title_h1">BOARD 쓰기</h3>
+	<div class="board">
+		
+		<ul class="write_form">
+			<li>
+				<div class="row">
+					<strong class="col-sm-2 th">제목<i class="icon_star"><span class="sr-only">필수입력</span></i></strong>
+					<div class="col-sm-10 td form-row">
+						<input class="form-control" type="text" name="title" value="" title="제목을 입력하세요" placeholder="제목을 입력하세요.">
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<strong class="col-sm-2 th">작성자</strong>
+					<div class="col-sm-10 td">
+						<input type="text" class="form-control" name="m_name" readonly="readonly" value="관리자" maxlength="12" title="작성자">
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<strong class="col-sm-2 th">비밀번호<i class="icon_star"><span class="sr-only">필수입력</span></i></strong>
+					<div class="col-sm-10 td">
+						<input type="password" name="passwd" value="" maxlength="12" class="form-control" title="비밀번호를 입력하세요">
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<strong class="col-sm-2 th">내용</strong>
+					<div class="col-sm-10 td form-row">
+						<textarea name="content" id="content_textarea" rows="10" title="내용을 입력하세요" class="content form-control" ></textarea>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<strong class="col-sm-2 th">파일첨부</strong>
+					<div class="col-sm-10 td form-row">
+						<ul class="add_file">
+							<li class="attach">
+								<button type="button" class="input_file"><i aria-hidden="true"></i>파일첨부</button>								
+								<p class="help_note"><span>jpg, gif, png</span>파일만 가능합니다.
+									업로드 용량제한 <span>5MB</span></p>
+							</li>
+							<li>
+								<a href="#" class="file_down">
+									<img src="../img/board/file_doc.png" alt="">
+									<span class="text">첨부파일명마우스오버 시.doc</span>
+									<span class="file_size">(6KB)</span>
+								</a>
+								<button type="button" class="file_delete"><span>삭제하기</span><i class="xi-close-min"></i></button>
+							</li>
+							<li>
+								<a href="#" class="file_down">
+									<img src="../img/board/file_img.png" alt="">
+									<span class="text">154873973477000.jpg</span>
+									<span class="file_size">(6KB)</span>
+								</a>
+								<button type="button" class="file_delete"><span>삭제하기</span><i class="xi-close-min"></i></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>	
+		</ul>
+		<!-- //write_form -->
+		<div class="btn_area">
+			<button type="button" class="btn">취소</button>
+			<button type="button" onclick="ins('ins'); return false;" class="btn_submit btn">등록</button>
+		</div>
+
+	</div>
+	<!--//board-->
+
+</body>
+
+</html>

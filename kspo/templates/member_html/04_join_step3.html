@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>한국체육산업개발</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="페이지 설명">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../resources/img/common/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="../../resources/img/common/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="../../resources/css/common.css">
+    <link rel="stylesheet" href="../../resources/css/webfonts.css">
+    <link rel="stylesheet" href="../../resources/member/css/layout.css">
+    <link rel="stylesheet" href="../../resources/member/css/contents.css">
+    <link rel="stylesheet" href="../../resources/css/board.css">
+    <script src="../../resources/jquery/jquery-3.2.1.min.js"></script>
+    
+    <script  src="../../resources/js/func.min.js"></script>
+    <script  src="../../resources/js/member.js"></script>
+    
+</head>
+
+<body>
+    <div id="skipNav">
+        <a href="#content">본문으로 바로가기</a>
+    </div>
+    <div id="wrap">
+
+        <header class="header">
+            <div class="gnb_area">
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="index.html" class="link"><span class="sr-only">한국체육산업개발(주)</span></a>
+                    </h1>                    
+                </div>
+                <!-- //container -->
+            </div>
+            <!-- //gnb_area -->            
+        </header>
+
+        <main class="main">    
+			                  
+            <div class="content_wrap container">
+
+                <div class="title_area">
+					<h2 class="title_h1">통합회원 가입</h2>
+					<ol class="join_step">
+						<li><span>01 약관동의</span><i class="long_arrow_right"></i></li>
+						<li><span>02 본인인증</span><i class="long_arrow_right"></i></li>
+						<li class="active"><strong>03 정보입력</strong><span class="sr-only">현재 진행단계</span><i class="long_arrow_right"></i></li>
+						<li><span>04 가입완료</span></li>
+					</ol>
+				</div>
+
+                <div id="content" class="content_section">
+
+					<!--콘텐츠시작-->	
+					<div class="join_step3_cont">
+						<h4 class="title_h2">회원정보</h4>
+						<ul class="write_form">
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">이름</strong>
+									<div class="col-sm-10 td noinput">
+										홍길동
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">생년월일</strong>
+									<div class="col-sm-10 td noinput">
+										19880818
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">휴대폰 번호</strong>
+									<div class="col-sm-10 td noinput">
+										010-1818-1818
+									</div>
+								</div>
+							</li>
+						</ul>
+						<h4 class="title_h2">개인정보입력</h4>
+						
+		
+						<ul class="write_form">					
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">아이디<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+									<div class="col-sm-10 td form-inline">
+										<input type="text" class="form-control w40" name="" value="" maxlength="12" title="아이디"><button type="button" class="btn ml10 btn_popopen" data-id="id_duplicate">중복확인</button>
+										<div class="modal_popup_wrap id_duplicate">
+											<div class="modal_popup">
+												<div class="modal_cont">
+													<h4 class="modal_title">아이디 중복확인</h4>
+													<p class="major_txt">사용할 아이디를 입력하세요</p>
+													<div class="form-row">
+														<input type="text" class="form-control">
+														<button type="button" class="btn type3">중복확인</button>
+													</div>
+												</div>
+												<div class="modal_foot">
+													<div class="whether">
+														<p class="txt mb20"><strong>whitecoco</strong>은(는) 사용 가능한 ID입니다.</p>
+														<div class="btns">
+															<button type="button" class="btn  btn_cancel">취소</button>
+															<button type="button" class="btn type3">확인</button>
+														</div>
+													</div>
+													<!-- //whether -->
+												</div>
+												<button type="button" class="modal_close"><i class="xi-close-thin" aria-hidden="true"></i><span class="sr-only">팝업닫기</span></button>
+											</div>
+											<!-- //modal_popup -->
+										</div>
+										<!-- modal_popup_wrap -->
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="pw_input row">
+									<strong class="col-sm-2 th">비밀번호<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+									<div class="col-sm-10 td">
+										<div class="form-row w40">
+											<input type="password" class="form-control" placeholder="새 비밀번호" title="새 비밀번호(영문 + 숫자 + 특수문자, 6~30자)">	
+											<button type="button" class="btn_pw_view"><span class="sr-only">비밀번호보기</span><i class="xi-eye-o" aria-hidden="true"></i></button>
+										</div>
+										<div class="note">
+											<!-- 
+												비밀번호 안전강도에 따른 combi_step클래스추가 및 icon_note출력 메시지
+												.level_1 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+												.level_2 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+												.level_3 : 8~16자리 영문 대소문자, 숫자, 특수문자중 3가지 이상 조합
+												.level_4 : 사용가능한 비밀번호입니다.(안전성 강도 강함)
+												.level_5 : 사용가능한 비밀번호입니다.(안전성 강도 매우 강함)
+												3자리 이상 연속되는 경우 : 3자리 이상 연속되는 영문, 숫자, 특수문자는 비밀번호로 사용할 수 없습니다.
+											-->
+											<div class="combi_step">
+												<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 매우 약함</span></i>
+												<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 약함</span></i>
+												<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 보통</span></i>
+												<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 강함</span></i>
+												<i class="icon" aria-hidden="true"><span class="sr-only">비밀번호 안전강도 매우 강함</span></i>
+											</div>
+											<p class="icon_note" aria-hidden="true">비밀번호를 입력해 주세요</p>
+										</div>
+									</div>
+								</div>
+								<!-- //row -->
+							</li>
+							<li>
+								<div class="pw_input row">
+									<strong class="col-sm-2 th">비밀번호 확인<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+									<div class="col-sm-10 td">
+										<div class="form-row w40">
+											<input type="password" class="form-control" placeholder="변경할 비밀번호 확인" title="변경할 비밀번호 확인">
+											<button type="button" class="btn_pw_view"><span class="sr-only">비밀번호보기</span><i class="xi-eye-off-o" aria-hidden="true"></i></button>
+										</div>											
+									</div>							
+								</div>
+								<!-- //row -->
+							</li>
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">이메일<i class="icon_star" aria-hidden="true"><span class="sr-only">필수입력</span></i></strong>
+									<div class="col-sm-10 td">
+										<div class="form-inline">
+											<input class="form-control w30" type="text" name="" value="" title="이메일 아이디를 입력하세요"> 
+											<span class="form-term">@</span>
+											<input class="form-control w30" type="text" name="" value="" title="이메일 주소를 입력하세요">
+											<select class="form-select w30 ml20" title="이메일 주소를 선택하세요">
+												<option value="-">직접입력</option>
+												<option value="-">naver.com</option>
+												<option value="-">daum.net</option>
+												<option value="-">gmail.com</option>
+												<option value="-">nate.com</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</li>						
+						</ul>
+						<!-- //write_form -->
+						<div class="box blue_box olpark_plus">							
+							<strong>올림픽공원 홈페이지 관심분야를 등록하시겠습니까?</strong>
+							<div class="form-row ml20">
+								<ul class="form-inline custom-input">
+									<li><input type="radio" id="olparkJoinY" name="olparkJoin" value="" title="예 선택"><label for="olparkJoinY">예</label></li>
+									<li><input type="radio" id="olparkJoinN" name="olparkJoin" value="" title="아니오 선택" checked><label for="olparkJoinN">아니오</label></li>
+								</ul>
+							</div>
+						</div>
+						<ul class="interest_area write_form mt30">
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">관심분야</strong>
+									<div class="col-sm-10 td">
+										<ul class="form-inline custom-input interest_list">
+											<li>
+												<input type="checkbox" name="" id="interest1">
+												<label for="interest1">88서울올림픽자료</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest2">
+												<label for="interest2">소마미술관</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest3">
+												<label for="interest3">공연정보</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest4">
+												<label for="interest4">공단관련각종소식</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest5">
+												<label for="interest5">올림픽공원</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest6">
+												<label for="interest6">새천년건강체조</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest7">
+												<label for="interest7">생활스포츠</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest8">
+												<label for="interest8">파크텔</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest9">
+												<label for="interest9">경륜</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest10">
+												<label for="interest10">경정</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest11">
+												<label for="interest11">토토</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest12">
+												<label for="interest12">채용정보</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest13">
+												<label for="interest13">기금지원(체육시설 설치지원 등)</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest14">
+												<label for="interest14">스포츠산업융자</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest15">
+												<label for="interest15">올림픽기념관</label>
+											</li>
+											<li>
+												<input type="checkbox" name="" id="interest16">
+												<label for="interest16">무료건강검진</label>
+											</li>											
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+						<h4 class="title_h2">정보수신 동의</h4>
+						<ul class="write_form">
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">DM 발송</strong>
+									<div class="col-sm-10 td noinput">
+										<span class="question">메일을 받아보시겠습니까?</span>
+										<ul class="form-inline">
+											<li class="custom-input">
+												<input type="radio" name="agree1" id="agree1Y" checked>
+												<label for="agree1Y">동의</label>
+											</li>
+											<li class="custom-input">
+												<input type="radio" name="agree1" id="agree1N">
+												<label for="agree1N">동의하지않음</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="row">
+									<strong class="col-sm-2 th">SMS 발송</strong>
+									<div class="col-sm-10 td noinput">
+										<span class="question">SMS를 받아보시겠습니까?</span>
+										<ul class="form-inline">
+											<li class="custom-input">
+												<input type="radio" name="agree2" id="agree2Y" checked>
+												<label for="agree2Y">동의</label>
+											</li>
+											<li class="custom-input">
+												<input type="radio" name="agree2" id="agree2N">
+												<label for="agree2N">동의하지않음</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="btns mt50">
+							<button class="btn btn_md">이전단계</button>
+							<button class="btn btn_md type3">다음단계</button>
+						</div>
+					</div>				
+					<!-- //join_step3 -->
+
+
+					<!--//콘텐츠끝-->					
+					
+                </div>
+                <!-- //content -->   
+            </div>
+            <!-- //snb_content_wrap -->
+                  
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_nav_bar">
+                    <nav class="footer_nav">
+                        <a href="#"><strong>개인정보처리방침</strong></a>
+                        <a href="#">오시는길</a>
+                        <a href="#">전화번호 안내</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">이메일무단수집거부</a>
+                        <a href="#">저작권정책</a>
+                    </nav>
+                    <div class="relate_site">
+                        <a href="#" class="title" title="관련사이트열기">관련사이트<i class="xi-caret-up-min"></i></a>                        
+                        <ul class="list">
+                            <li><a href="http://www.kspo.or.kr/" target="_blank" title="새창">국민체육진흥공단</a></li>
+                            <li><a href="http://blog.kspo.or.kr/" target="_blank" title="새창">KSPO블로그</a></li>
+                            <li><a href="https://www.parktel.co.kr/" target="_blank" title="새창">서울올림픽파크텔</a></li>
+                            <li><a href="https://88olympic.kspo.or.kr/" target="_blank" title="새창">서울올림픽기념관</a></li>
+                            <li><a href="https://library.kspo.or.kr/" target="_blank" title="새창">서울올림픽자료실</a></li>
+                            <li><a href="https://soma.kspo.or.kr/" target="_blank" title="새창">소마미술관</a></li>
+                            <li><a href="http://www.krace.or.kr/" target="_blank" title="새창">기금조성총괄본부</a></li>
+                            <li><a href="http://www.kcycle.or.kr/" target="_blank" title="새창">KCYCLE 경륜</a></li>
+                            <li><a href="http://www.kboat.or.kr/" target="_blank" title="새창">KBOAT 경정</a></li>
+                            <li><a href="https://www.sports.re.kr/" target="_blank" title="새창">한국스포츠정책과학원</a></li>
+                            <li><a href="https://www.insports.or.kr/" target="_blank" title="새창">체육지도자 연수원</a></li>
+                            <li><a href="https://www.spoinfo.or.kr/" target="_blank" title="새창">체육시설 알리미</a></li>
+                            <li><a href="https://www.ksponco.or.kr/" target="_blank" title="새창">한국체육산업개발(주)</a></li>
+                        </ul>
+                    </div>
+                    <!-- //relate_site -->
+                </div>
+                <!-- //footer_nav -->
+
+                <div class="footer_cont">  
+                    <div class="address_group">
+                        <address>
+                            <span class="address">(05540) 서울특별시 송파구 올림픽로 424(방이동) 올림픽역도경기장 내</span>
+                            <span class="tel"><strong>고객안내전화 : <a href="tel:02-2180-3564">02-2180-3564~5</a></strong>(평화의 광장),<br class="mobile"> <strong><a href="tel:02-2180-3566">02-2180-3566</a></strong>(만남의 광장)</span>
+                            <span class="copyright">COPYRIGHT &copy; 2021 BY KSPO&amp;CO. All RIGHTS RESERVED</span>
+                        </address>
+                    </div>
+                    <!-- //address_group -->
+                    <nav class="sns_list">
+                        <a href=""><i class="xi-facebook"></i><span class="sr-only">페이스북</span></a>
+                        <a href=""><i class="xi-twitter"></i><span class="sr-only">트위터</span></a>
+                        <a href=""><i class="xi-youtube-play"></i><span class="sr-only">유투브</span></a>
+                        <a href=""><i class="xi-naver"></i><span class="sr-only">네이버</span></a>
+                        <a href=""><i class="xi-instagram"></i><span class="sr-only">인스타그램</span></a>
+                    </nav> 
+                    <!-- //sns_list -->
+                </div>
+                <!-- //footer_cont -->
+                
+            </div>
+            <!-- //container -->
+        </footer>
+    </div>
+
+</body>
+
+</html>
